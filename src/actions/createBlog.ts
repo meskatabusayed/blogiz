@@ -1,3 +1,4 @@
+"use server"
 import { Blog } from "@/type";
 
 export const createBlog = async(data : Blog) => {
